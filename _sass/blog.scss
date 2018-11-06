@@ -19,6 +19,17 @@
 			height: 125px;
 			margin-top: 0;
 		}
+		
+		.square-image img {
+			position: absolute;
+    		left: -1000%;
+    		right: -1000%;
+    		top: -1000%;
+    		bottom: -1000%;
+			margin: auto;
+			width: inherit;
+		}
+
 		.blurb {
 			text-align: center;
 		}
