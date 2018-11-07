@@ -1,6 +1,4 @@
 - links:
-  - name: Pricing
-    link: /pricing/
   - name: Blog
     link: /blog/
   - name: About
@@ -8,30 +6,17 @@
   - name: Contact
     link: /contact/
 - links:
-  - name: Login
-    link: /
+  - name: GitHub
+    link: https://github.com/HF-Solutions
+    social_icon: GitHub
     new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
-- links:
   - name: Facebook
-    link: https://facebook.com
+    link: https://facebook.com/HassleFreeSolutions/
     new_window: true
     social_icon: Facebook
   - name: Twitter
-    link: https://twitter.com
+    link: https://twitter.com/HF_Solutions17
     social_icon: Twitter
-    new_window: true
-  - name: YouTube
-    link: https://youtube.com
-    social_icon: YouTube
     new_window: true
   - name: RSS
     link: /feed.xml
