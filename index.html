@@ -2,6 +2,9 @@
 title: Home
 description: Creating software we love, for others to enjoy.
 ---
+
+{% assign contacts = site.data.contact %}
+
 <section class="hero">
 	<div class="text-container">
 		<h1>HassleFree Solutions</h1>
@@ -44,7 +47,7 @@ description: Creating software we love, for others to enjoy.
 			<div class="text">
 				<h2><strong>How</strong> can one get in touch?</h2>
 				<p>The easiest way to get in touch is via the <a href="/contact">contact</a> page where you can fill out a form and we will get back to you as soon as possible.</p>
-				<p>You can also email us at <a href="mailto:hello@hasslefree.solutions">hello@hasslefree.solutions</a> or reach out on <a href="https://twitter.com/HF_Solutions17">Twitter</a>.</p>
+				<p>You can also email us at <a href="mailto:{{ contacts.email.url }}">{{ contacts.email.url }}</a> or reach out on <a href="{{ contacts.twitter.url }}">Twitter</a>.</p>
 			</div>
 			<div class="image">
 				<img src="/images/Contact.jpg" alt="Contact Image" class="screenshot" />
@@ -57,7 +60,7 @@ description: Creating software we love, for others to enjoy.
 			<div class="testimonial-block">
 				<div class="circle-image"><img src="/images/clients/Anthony_Robb.jpg" alt="Anthony Robb"></div>
 				<blockquote>
-					<p>I found Devin on <a href="https://www.upwork.com/fl/alcha">Upwork</a> and he was a pleasure to work with. I had someone who left me in a pickle with my Squarespace website and Devin got the site looking exactly how I wanted it.  He not only worked within the Squarespace parameters, he did a bunch of customized stuff at a very low cost. Overall, I would recommend him to anybody building a website.</p>
+					<p>I found Devin on <a href="{{ contacts.upwork.url }}">Upwork</a> and he was a pleasure to work with. I had someone who left me in a pickle with my Squarespace website and Devin got the site looking exactly how I wanted it.  He not only worked within the Squarespace parameters, he did a bunch of customized stuff at a very low cost. Overall, I would recommend him to anybody building a website.</p>
 					<p class="author">Anthony Robb - President of <a href="https://www.stoneleighconsulting.com/">Stoneleigh Consulting</a></p>
 				</blockquote>
 			</div>

@@ -1,13 +1,25 @@
 ---
-title: Our Team
+title: About Us
 ---
-<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
-	{% for person in site.staff_members %}
-		<li>
-			<div class="circle-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name">{{ person.name }}</div>
-			<div class="position">{{ person.position }}</div>
-		</li>
-	{% endfor %}
-</ul>
+<!-- <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p> -->
+
+<section class="hero">
+	<div class="text-container">
+		<h1>Our Mission</h1>
+		<p class="subtext">Creating software we love, for others to enjoy.</p>
+	</div>
+</section>
+
+<div class="content">
+	<section>
+		<ul class="staff">
+			{% for person in site.staff_members %}
+				<li>
+					<div class="circle-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
+					<div class="name">{{ person.name }}</div>
+					<div class="position">{{ person.position }}</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</section>
+</div>
