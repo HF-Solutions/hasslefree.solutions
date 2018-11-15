@@ -1,0 +1,15 @@
+Todo:
+  ✔ Finish the contact refactor. @done(18-11-15 03:42)
+    ✔ Update maps functionality so it actually works. @done(18-11-15 03:42)
+    ✔ Update address and contact info. @done(18-11-15 03:31)
+    ✔ Verify the contact form sends the message as expected. @done(18-11-15 03:31)
+  ☐ Finish About Page.
+    ☐ Fix images for staff so they're smaller/more professional.
+    ☐ Add a mission statement/story about getting started.
+  ☐ Finish Projects page.
+    ☐ Add Tron to the list.
+    ☐ Add Stoneleigh Consulting to the list.
+    ☐ Add Enmeti to the list.
+    ☐ Add any other useful projects.
+  ☐ Fix author info not appearing on blog posts.
+  ☐ Publish the website to hasslefree.solutions.
