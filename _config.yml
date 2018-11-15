@@ -5,8 +5,9 @@ title: HassleFree Solutions, LLC.
 url: "https://hasslefree.solutions"
 baseurl:
 google_analytics_key:
-google_maps_javascript_api_key:
+google_maps_javascript_api_key: AIzaSyB-EPbkWRHaGlpGfJcP0gxiI3gvcPpcBDs
 disqus_shortname:
+email: hello@hasslefree.solutions
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -19,6 +20,9 @@ social:
   name: HassleFree Solutions
   links:
     - https://github.com/HF-Solutions
+    - https://twitter.com/HF_Solutionz
+    - https://www.upwork.com/fl/alcha
+    - https://facebook.com/HassleFreeSolutions/
 
 # -----
 # Build
@@ -92,21 +96,6 @@ exclude:
 
 social_icons:
   - Facebook
-  - Google Plus
-  - Instagram
   - LinkedIn
-  - Pinterest
-  - Tumblr
   - Twitter
-  - YouTube
   - RSS
-
-_comments:
-  map: Update the map location and display settings.
-  latitude: Coordinates for the center marker on the map.
-  longitude: Coordinates for the center marker on the map.
-  zoom: The zoom level for the map.
-  pricing_table: Update the information in the pricing tables.
-  highlight: Emphasis the text
-  color: The background colour used in the plan name and call to action.
-  new_window: Open link in new window
