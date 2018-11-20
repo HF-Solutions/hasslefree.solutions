@@ -1,8 +1,5 @@
 ---
 layout: page
-title: Projects
-description: A collection of past and present projects.
-heading: What Have We Done?
 projects:
   - name: Tron
     description: Our Discord chat bot that makes life a bit more enjoyable on your server.
@@ -13,26 +10,17 @@ projects:
     description: A Visual Studio Code extension that makes inserting and managing links within your Markdown files a breeze.
     git_url: https://github.com/HF-Solutions/Enmeti
     das_url: https://marketplace.visualstudio.com/items?itemName=hf-solutions-llc.enmeti
-    image: Enmeti.png
+    image: enmeti.svg
   - name: Stoneleigh Consulting, Inc.
     description: The official website for Stoneleigh Consulting, Inc. which runs on the Squarespace platform.
     das_url: https://stoneleighconsulting.com/
-    image: slc_inc.png
+    image: slc_inc_logo.png
 ---
-<div class="projects-container">
-  {% for project in page.projects %}
-  {% assign diff = forloop.index | minus: 2 %}
-  {{ diff }}
+<table>
+  {% tablerow project in page.projects cols:3 %}
     <div class="project-container">
-      <h2>{{ project.name }}</h2>
-      <img src="/images/projects/{{ project.image }}">
-      <p>{{ project.description }}</p>
-      <a href="{{ project.git_url }}">GitHub Repository</a>
+      <img src="/images/projects/{{ project.image }}" alt="{{ project.name }}" title="{{ project.name }}" class="project-image">
+      <div class="project-title">{{ project.name }}</div>
     </div>
-  {% endfor %}
-</div>
-
-
-<div class="projects-container">
-  
-</div>
+  {% endtablerow %}
+</table>

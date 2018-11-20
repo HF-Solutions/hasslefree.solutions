@@ -1,12 +1,25 @@
-.projects-container img {
-  width: 25%;
-  height: 25%;
-}
-
-.projects-container h2 {
-  text-align: left;
-}
-
 .project-container {
-  margin: 25px;
+  margin: 10px;
+  text-align: center;
+}
+
+.project-container:hover {
+  background-color: #E0E0E0;
+}
+
+.project-title {
+  font-size: x-large;
+  margin: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+tr td {
+  width: 33%;
+  padding: 10px;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 5px;
 }
