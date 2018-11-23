@@ -6,6 +6,7 @@
   link: /about/
   new_window: false
   highlight: true
+  exclude: true
 - name: Contact
   link: /contact/
   new_window: false

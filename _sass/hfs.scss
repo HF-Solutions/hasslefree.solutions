@@ -1,6 +1,12 @@
 .project-container {
   margin: 10px;
   text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project-container:hover {
+  cursor: pointer;
 }
 
 .project-container:hover {
@@ -22,4 +28,14 @@ tr td {
 .project-image {
   width: 100%;
   border-radius: 5px;
+}
+
+.project-big-container {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 25px 10px 10px 10px;
+
+  h1 { text-align: center; }
+  // h2 { text-align: center; }
+  // h3 { text-align: center; }
 }
