@@ -1,0 +1,16 @@
+---
+layout: page
+permalink: /projects/
+title: Projects
+description: What have we done?
+---
+<table>
+  {% tablerow project in site.projects cols:3 %}
+    <div class="project-container">
+      <a href="{{ project.das_url }}" target="_blank">
+        <img src="/images/projects/{{ project.image }}" alt="{{ project.title }}" class="project-image">
+        <div class="project-title">{{ project.title }}</div>
+      </a>
+    </div>
+  {% endtablerow %}
+</table>

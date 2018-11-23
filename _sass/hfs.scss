@@ -1,0 +1,41 @@
+.project-container {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project-container:hover {
+  cursor: pointer;
+}
+
+.project-container:hover {
+  background-color: #E0E0E0;
+}
+
+.project-title {
+  font-size: x-large;
+  margin: 10px;
+  font-weight: bold;
+  color: #666;
+}
+
+tr td {
+  width: 33%;
+  padding: 10px;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-big-container {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 25px 10px 10px 10px;
+
+  h1 { text-align: center; }
+  // h2 { text-align: center; }
+  // h3 { text-align: center; }
+}
